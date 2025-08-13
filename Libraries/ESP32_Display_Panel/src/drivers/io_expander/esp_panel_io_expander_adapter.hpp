@@ -6,9 +6,9 @@
 #pragma once
 
 #include <concepts>
-#include "utils/esp_panel_utils_log.h"
-#include "utils/esp_panel_utils_cxx.hpp"
-#include "drivers/host/esp_panel_host_i2c.hpp"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_cxx.hpp"
+#include "../../drivers/host/esp_panel_host_i2c.hpp"
 #include "esp_panel_io_expander.hpp"
 
 namespace esp_panel::drivers {

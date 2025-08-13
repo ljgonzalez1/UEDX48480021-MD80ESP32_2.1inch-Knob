@@ -5,7 +5,7 @@
  */
 #pragma once
 
-#include "esp_utils_conf_internal.h"
+#include "../esp_utils_conf_internal.h"
 
 #ifndef ESP_UTILS_LOG_TAG
 #define ESP_UTILS_LOG_TAG "Utils"
@@ -67,9 +67,8 @@ private:
         case ESP_UTILS_LOG_LEVEL_INFO:    return 'I';
         case ESP_UTILS_LOG_LEVEL_WARNING: return 'W';
         case ESP_UTILS_LOG_LEVEL_ERROR:   return 'E';
-        default: break;
+        default: return ' ';
         }
-        return ' ';
     }
 
     char _buffer[ESP_UTILS_CONF_LOG_BUFFER_SIZE];

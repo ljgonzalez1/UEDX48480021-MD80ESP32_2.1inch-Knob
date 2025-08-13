@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include "sdkconfig.h"
-#include "esp_utils_conf_internal.h"
+#include "../esp_utils_conf_internal.h"
 
 #ifdef __cplusplus
 extern "C" {
