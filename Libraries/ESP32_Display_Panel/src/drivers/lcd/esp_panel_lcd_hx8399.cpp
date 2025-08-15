@@ -8,7 +8,7 @@
 #if ESP_PANEL_DRIVERS_LCD_ENABLE_HX8399
 
 #include "soc/soc_caps.h"
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "port/esp_lcd_hx8399.h"
 #include "esp_panel_lcd_hx8399.hpp"
 

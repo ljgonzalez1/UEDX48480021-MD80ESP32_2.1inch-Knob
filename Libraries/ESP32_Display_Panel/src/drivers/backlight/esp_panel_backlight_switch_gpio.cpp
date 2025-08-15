@@ -8,7 +8,7 @@
 #if ESP_PANEL_DRIVERS_BACKLIGHT_ENABLE_SWITCH_GPIO
 
 #include "driver/gpio.h"
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "esp_panel_backlight_switch_gpio.hpp"
 
 namespace esp_panel::drivers {

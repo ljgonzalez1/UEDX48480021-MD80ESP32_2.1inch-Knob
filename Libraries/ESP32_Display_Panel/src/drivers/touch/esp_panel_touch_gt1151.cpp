@@ -7,8 +7,8 @@
 #include "esp_panel_touch_conf_internal.h"
 #if ESP_PANEL_DRIVERS_TOUCH_ENABLE_GT1151
 
-#include "utils/esp_panel_utils_log.h"
-#include "drivers/bus/esp_panel_bus_i2c.hpp"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../drivers/bus/esp_panel_bus_i2c.hpp"
 #include "esp_panel_touch_gt1151.hpp"
 
 namespace esp_panel::drivers {

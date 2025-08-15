@@ -12,7 +12,7 @@
 
 // *INDENT-OFF*
 
-#include "board/esp_panel_board_conf_internal.h"
+#include "../../board/esp_panel_board_conf_internal.h"
 
 /* Check if using a supported board */
 #ifdef ESP_PANEL_BOARD_USE_SUPPORTED_FILE
@@ -25,7 +25,7 @@
     #elif defined(ESP_PANEL_BOARD_INCLUDE_SUPPORTED_SIMPLE)
         #include "esp_panel_board_supported_conf.h"
     #elif defined(ESP_PANEL_BOARD_INCLUDE_SUPPORTED_OUTSIDE)
-        #include "../../../../esp_panel_board_supported_conf.h"
+        #include "../../../esp_panel_board_supported_conf.h"
     #endif
 #endif
 

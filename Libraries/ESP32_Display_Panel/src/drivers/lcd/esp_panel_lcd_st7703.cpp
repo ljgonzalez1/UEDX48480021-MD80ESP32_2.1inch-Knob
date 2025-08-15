@@ -8,7 +8,7 @@
 #if ESP_PANEL_DRIVERS_LCD_ENABLE_ST7703
 
 #include "soc/soc_caps.h"
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "port/esp_lcd_st7703.h"
 #include "esp_panel_lcd_st7703.hpp"
 

@@ -7,7 +7,7 @@
 #include "esp_panel_lcd_conf_internal.h"
 #if ESP_PANEL_DRIVERS_LCD_ENABLE_SH8601
 
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "port/esp_lcd_sh8601.h"
 #include "esp_panel_lcd_sh8601.hpp"
 

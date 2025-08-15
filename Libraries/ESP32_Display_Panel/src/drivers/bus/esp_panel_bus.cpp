@@ -5,7 +5,7 @@
  */
 
 #include <inttypes.h>
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "esp_panel_bus.hpp"
 
 namespace esp_panel::drivers {

@@ -7,7 +7,7 @@
 #include "esp_panel_lcd_conf_internal.h"
 #if ESP_PANEL_DRIVERS_LCD_ENABLE_ILI9341
 
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "port/esp_lcd_ili9341.h"
 #include "esp_panel_lcd_ili9341.hpp"
 

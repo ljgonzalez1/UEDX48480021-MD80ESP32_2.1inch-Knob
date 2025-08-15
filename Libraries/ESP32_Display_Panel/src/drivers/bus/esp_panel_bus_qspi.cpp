@@ -7,8 +7,8 @@
 #include "esp_panel_bus_conf_internal.h"
 #if ESP_PANEL_DRIVERS_BUS_ENABLE_QSPI
 
-#include "utils/esp_panel_utils_log.h"
-#include "drivers/host/esp_panel_host_spi.hpp"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../drivers/host/esp_panel_host_spi.hpp"
 #include "esp_panel_bus_qspi.hpp"
 
 namespace esp_panel::drivers {

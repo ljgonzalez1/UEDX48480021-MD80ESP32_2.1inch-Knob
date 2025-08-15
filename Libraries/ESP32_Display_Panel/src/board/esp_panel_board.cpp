@@ -5,8 +5,8 @@
  */
 
 #include <memory>
-#include "utils/esp_panel_utils_log.h"
-#include "drivers/io_expander/esp_panel_io_expander_adapter.hpp"
+#include "../utils/esp_panel_utils_log.h"
+#include "../drivers/io_expander/esp_panel_io_expander_adapter.hpp"
 #include "esp_panel_board.hpp"
 #include "esp_panel_board_private.hpp"
 #include "esp_panel_board_default_config.hpp"

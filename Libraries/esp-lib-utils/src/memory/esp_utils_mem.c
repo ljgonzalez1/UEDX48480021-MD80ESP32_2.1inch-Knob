@@ -7,9 +7,9 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include "esp_heap_caps.h"
-#include "esp_utils_conf_internal.h"
-#include "check/esp_utils_check.h"
-#include "log/esp_utils_log.h"
+#include "../esp_utils_conf_internal.h"
+#include "../check/esp_utils_check.h"
+#include "../log/esp_utils_log.h"
 #if ESP_UTILS_CONF_MEM_GEN_ALLOC_TYPE == ESP_UTILS_MEM_ALLOC_TYPE_ESP
 #include "esp_heap_caps.h"
 #elif ESP_UTILS_CONF_MEM_GEN_ALLOC_TYPE == ESP_UTILS_MEM_ALLOC_TYPE_CUSTOM

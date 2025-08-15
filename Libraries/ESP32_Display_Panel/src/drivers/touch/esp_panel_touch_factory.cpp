@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "utils/esp_panel_utils_log.h"
-#include "esp_utils_helpers.h"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../../../esp-lib-utils/src/esp_utils_helpers.h"
 #include "esp_panel_touch_conf_internal.h"
 #include "esp_panel_touch_factory.hpp"
 

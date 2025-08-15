@@ -7,7 +7,7 @@
 #include "esp_panel_backlight_conf_internal.h"
 #if ESP_PANEL_DRIVERS_BACKLIGHT_ENABLE_PWM_LEDC
 
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "esp_panel_backlight_pwm_ledc.hpp"
 
 namespace esp_panel::drivers {

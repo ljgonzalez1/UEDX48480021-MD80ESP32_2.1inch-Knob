@@ -7,7 +7,7 @@
 #include "esp_timer.h"
 #undef ESP_UTILS_LOG_TAG
 #define ESP_UTILS_LOG_TAG "LvPort"
-#include "esp_lib_utils.h"
+#include "../../esp-lib-utils/src/esp_lib_utils.h"
 #include "lvgl_v8_port.h"
 
 using namespace esp_panel::drivers;
