@@ -8,7 +8,7 @@
 #include <unordered_map>
 #include <memory>
 #include <string>
-#include "utils/esp_panel_utils_cxx.hpp"
+#include "../../utils/esp_panel_utils_cxx.hpp"
 #include "esp_panel_io_expander.hpp"
 #include "esp_panel_io_expander_conf_internal.h"
 

@@ -5,7 +5,7 @@
  */
 #pragma once
 
-#include "chip/esp_expander_base.hpp"
+#include "../../../../ESP32_IO_Expander/src/chip/esp_expander_base.hpp"
 #include "esp_panel_io_expander_conf_internal.h"
 
 namespace esp_panel::drivers {

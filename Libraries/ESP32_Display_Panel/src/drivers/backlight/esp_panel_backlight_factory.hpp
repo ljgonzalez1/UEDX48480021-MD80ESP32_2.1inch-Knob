@@ -10,7 +10,7 @@
 #include <memory>
 #include <string>
 #include <variant>
-#include "utils/esp_panel_utils_cxx.hpp"
+#include "../../utils/esp_panel_utils_cxx.hpp"
 #include "esp_panel_backlight.hpp"
 #include "esp_panel_backlight_custom.hpp"
 #include "esp_panel_backlight_pwm_ledc.hpp"

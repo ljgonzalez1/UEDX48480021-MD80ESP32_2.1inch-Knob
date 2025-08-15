@@ -5,7 +5,7 @@
  */
 
 #include "driver/i2c.h"
-#include "esp_expander_utils.h"
+#include "../esp_expander_utils.h"
 #include "esp_expander_base.hpp"
 
 // Check whether it is a valid pin number

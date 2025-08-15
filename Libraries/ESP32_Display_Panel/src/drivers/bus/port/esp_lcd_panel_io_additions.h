@@ -9,7 +9,7 @@
 #include <stdint.h>
 
 #include "esp_lcd_types.h"
-#include "port/esp_io_expander.h"
+#include "../../../../../ESP32_IO_Expander/src/port/esp_io_expander.h"
 
 #ifdef __cplusplus
 extern "C" {

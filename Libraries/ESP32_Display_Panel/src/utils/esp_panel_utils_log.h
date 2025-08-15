@@ -12,4 +12,5 @@
 // Define the log tag for the current library, should be declared before `esp_lib_utils.h`
 #undef ESP_UTILS_LOG_TAG
 #define ESP_UTILS_LOG_TAG "Panel"
-#include "esp_lib_utils.h"
+#include "../../../esp-lib-utils/src/esp_lib_utils.h"
+

@@ -14,8 +14,8 @@
 #include "esp_lcd_panel_vendor.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/semphr.h"
-#include "utils/esp_panel_utils_cxx.hpp"
-#include "drivers/bus/esp_panel_bus_factory.hpp"
+#include "../../utils/esp_panel_utils_cxx.hpp"
+#include "../../drivers/bus/esp_panel_bus_factory.hpp"
 #include "port/esp_panel_lcd_vendor_types.h"
 #include "esp_panel_lcd_conf_internal.h"
 

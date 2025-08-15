@@ -5,7 +5,7 @@
  */
 #pragma once
 
-#include "esp_io_expander.hpp"
+#include "../../../../ESP32_IO_Expander/src/esp_io_expander.hpp"
 #include "esp_panel_backlight_conf_internal.h"
 #include "esp_panel_backlight.hpp"
 

@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "esp_panel_types.h"
-#include "utils/esp_panel_utils_log.h"
-#include "utils/esp_panel_utils_cxx.hpp"
-#include "board/esp_panel_board_config.hpp"
-#include "board/esp_panel_board.hpp"
+#include "../esp_panel_types.h"
+#include "../utils/esp_panel_utils_log.h"
+#include "../utils/esp_panel_utils_cxx.hpp"
+#include "../board/esp_panel_board_config.hpp"
+#include "../board/esp_panel_board.hpp"
 // Replace the following header file if creating a new board configuration
-#include "board/esp_panel_board_private.hpp"
+#include "../board/esp_panel_board_private.hpp"
 #include "esp_panel_board_default_config.hpp"
 
 // *INDENT-OFF*

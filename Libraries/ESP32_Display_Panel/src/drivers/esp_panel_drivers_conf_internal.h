@@ -8,7 +8,7 @@
 
 // *INDENT-OFF*
 
-#include "esp_panel_conf_internal.h"
+#include "../esp_panel_conf_internal.h"
 
 #ifndef ESP_PANEL_DRIVERS_FILE_SKIP
     /* Try to locate the configuration file in different paths */
@@ -33,7 +33,7 @@
     #elif defined(ESP_PANEL_DRIVERS_INCLUDE_OUTSIDE)
         #include "../../../esp_panel_drivers_conf.h"
     #elif defined(ESP_PANEL_DRIVERS_INCLUDE_INSIDE)
-        #include "../esp_panel_drivers_conf.h"
+        #include "../../esp_panel_drivers_conf.h"
     #endif
 
     #if defined(ESP_PANEL_DRIVERS_CONF_FILE_VERSION_MAJOR) && \

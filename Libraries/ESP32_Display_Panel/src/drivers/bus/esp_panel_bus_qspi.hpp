@@ -10,7 +10,7 @@
 #include <memory>
 #include <variant>
 #include "driver/spi_master.h"
-#include "utils/esp_panel_utils_cxx.hpp"
+#include "../../utils/esp_panel_utils_cxx.hpp"
 #include "esp_panel_bus_conf_internal.h"
 #include "esp_panel_bus.hpp"
 

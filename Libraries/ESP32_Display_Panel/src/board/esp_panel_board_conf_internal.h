@@ -8,7 +8,7 @@
 
 // *INDENT-OFF*
 
-#include "esp_panel_conf_internal.h"
+#include "../esp_panel_conf_internal.h"
 
 #ifndef ESP_PANEL_BOARD_FILE_SKIP
     /* If "esp_panel_board_*.h" are available from here, try to use them later */

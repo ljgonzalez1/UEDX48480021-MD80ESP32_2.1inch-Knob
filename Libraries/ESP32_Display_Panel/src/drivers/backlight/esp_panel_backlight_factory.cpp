@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "esp_panel_types.h"
-#include "utils/esp_panel_utils_log.h"
+#include "../../esp_panel_types.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "esp_panel_backlight_conf_internal.h"
 #include "esp_panel_backlight_factory.hpp"
 

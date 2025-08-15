@@ -13,7 +13,7 @@
 #include "esp_lcd_panel_io.h"
 #include "esp_memory_utils.h"
 #include "driver/spi_master.h"
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "esp_panel_lcd.hpp"
 
 namespace esp_panel::drivers {

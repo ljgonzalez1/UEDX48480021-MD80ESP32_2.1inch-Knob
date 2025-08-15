@@ -13,7 +13,7 @@
 #include <optional>
 #include <variant>
 #include "esp_lcd_panel_rgb.h"
-#include "esp_io_expander.hpp"
+#include "../../../../ESP32_IO_Expander/src/esp_io_expander.hpp"
 #include "port/esp_lcd_panel_io_additions.h"
 #include "esp_panel_bus.hpp"
 

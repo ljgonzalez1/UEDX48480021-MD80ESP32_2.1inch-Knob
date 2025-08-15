@@ -8,8 +8,8 @@
 #if ESP_PANEL_DRIVERS_BUS_ENABLE_I2C
 
 #include "inttypes.h"
-#include "utils/esp_panel_utils_log.h"
-#include "drivers/host/esp_panel_host_i2c.hpp"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../drivers/host/esp_panel_host_i2c.hpp"
 #include "esp_panel_bus_i2c.hpp"
 
 namespace esp_panel::drivers {
