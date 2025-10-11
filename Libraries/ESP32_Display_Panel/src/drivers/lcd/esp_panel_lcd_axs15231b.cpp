@@ -7,7 +7,7 @@
 #include "esp_panel_lcd_conf_internal.h"
 #if ESP_PANEL_DRIVERS_LCD_ENABLE_AXS15231B
 
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "port/esp_lcd_axs15231b.h"
 #include "esp_panel_lcd_axs15231b.hpp"
 

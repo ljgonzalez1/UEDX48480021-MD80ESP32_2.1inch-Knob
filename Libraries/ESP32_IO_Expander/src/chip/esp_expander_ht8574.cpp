@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "esp_expander_utils.h"
-#include "port/esp_io_expander_ht8574.h"
+#include "../esp_expander_utils.h"
+#include "../port/esp_io_expander_ht8574.h"
 #include "esp_expander_ht8574.hpp"
 
 namespace esp_expander {

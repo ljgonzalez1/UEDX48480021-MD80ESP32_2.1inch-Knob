@@ -12,7 +12,7 @@
 
 // *INDENT-OFF*
 
-#include "board/esp_panel_board_conf_internal.h"
+#include "../../board/esp_panel_board_conf_internal.h"
 
 /* Check if using a custom board */
 #ifdef ESP_PANEL_BOARD_USE_CUSTOM_FILE
@@ -25,7 +25,7 @@
     #elif defined(ESP_PANEL_BOARD_INCLUDE_CUSTOM_SIMPLE)
         #include "esp_panel_board_custom_conf.h"
     #elif defined(ESP_PANEL_BOARD_INCLUDE_OUTSIDE_CUSTOM)
-        #include "../../../../esp_panel_board_custom_conf.h"
+        #include "../../../esp_panel_board_custom_conf.h"
     #endif
 #endif
 

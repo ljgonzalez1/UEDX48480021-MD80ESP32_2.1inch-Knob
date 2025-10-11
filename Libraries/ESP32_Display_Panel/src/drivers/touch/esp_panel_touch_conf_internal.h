@@ -8,7 +8,7 @@
 
 // *INDENT-OFF*
 
-#include "drivers/esp_panel_drivers_conf_internal.h"
+#include "../../drivers/esp_panel_drivers_conf_internal.h"
 
 #ifndef ESP_PANEL_DRIVERS_INCLUDE_INSIDE
     /**

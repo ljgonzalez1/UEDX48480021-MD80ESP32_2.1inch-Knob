@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include "utils/esp_panel_utils_log.h"
-#include "esp_io_expander.hpp"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../../../ESP32_IO_Expander/src/esp_io_expander.hpp"
 #include "esp_panel_io_expander_conf_internal.h"
 #include "esp_panel_io_expander_adapter.hpp"
 #include "esp_panel_io_expander_factory.hpp"

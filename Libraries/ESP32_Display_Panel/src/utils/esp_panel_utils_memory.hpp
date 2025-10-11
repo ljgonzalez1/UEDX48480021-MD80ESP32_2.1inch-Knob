@@ -6,7 +6,7 @@
 #pragma once
 
 #include <memory>
-#include "esp_lib_utils.h"
+#include "../../../esp-lib-utils/src/esp_lib_utils.h"
 
 namespace esp_panel::utils {
 

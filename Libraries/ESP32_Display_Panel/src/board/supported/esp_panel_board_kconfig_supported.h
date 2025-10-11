@@ -7,7 +7,7 @@
 
 // *INDENT-OFF*
 
-#include "board/esp_panel_board_conf_internal.h"
+#include "../../board/esp_panel_board_conf_internal.h"
 
 // Espressif
 #ifndef BOARD_ESPRESSIF_ESP32_C3_LCDKIT

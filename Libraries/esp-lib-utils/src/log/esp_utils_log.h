@@ -5,7 +5,7 @@
  */
 #pragma once
 
-#include "esp_utils_conf_internal.h"
+#include "../esp_utils_conf_internal.h"
 
 #ifndef ESP_UTILS_LOG_TAG
 #define ESP_UTILS_LOG_TAG "Utils"

@@ -6,11 +6,11 @@
 
 #pragma once
 
-#include "esp_panel_conf_internal.h"
+#include "../../esp_panel_conf_internal.h"
 
 // *INDENT-OFF*
 
-#include "drivers/esp_panel_drivers_conf_internal.h"
+#include "../../drivers/esp_panel_drivers_conf_internal.h"
 
 #ifndef ESP_PANEL_DRIVERS_INCLUDE_INSIDE
     /*

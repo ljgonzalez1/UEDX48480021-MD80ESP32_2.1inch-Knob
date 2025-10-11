@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "drivers/esp_panel_drivers_conf_internal.h"
+#include "../../drivers/esp_panel_drivers_conf_internal.h"
 
 // *INDENT-OFF*
 

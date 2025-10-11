@@ -9,7 +9,7 @@
 #include <optional>
 #include <variant>
 #include "driver/i2c.h"
-#include "port/esp_io_expander.h"
+#include "../port/esp_io_expander.h"
 
 // Refer to `esp32-hal-gpio.h` in Arduino
 #ifndef INPUT

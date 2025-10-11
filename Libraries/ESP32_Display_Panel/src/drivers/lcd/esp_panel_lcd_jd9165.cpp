@@ -8,7 +8,7 @@
 #if ESP_PANEL_DRIVERS_LCD_ENABLE_JD9165
 
 #include "soc/soc_caps.h"
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "port/esp_lcd_jd9165.h"
 #include "esp_panel_lcd_jd9165.hpp"
 

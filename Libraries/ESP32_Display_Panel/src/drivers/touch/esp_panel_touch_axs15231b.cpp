@@ -7,7 +7,7 @@
 #include "esp_panel_touch_conf_internal.h"
 #if ESP_PANEL_DRIVERS_TOUCH_ENABLE_AXS15231B
 
-#include "utils/esp_panel_utils_log.h"
+#include "../../utils/esp_panel_utils_log.h"
 #include "esp_panel_touch_axs15231b.hpp"
 
 namespace esp_panel::drivers {

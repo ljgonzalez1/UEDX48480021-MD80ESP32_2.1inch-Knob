@@ -13,7 +13,7 @@
 
 #include "esp_io_expander.h"
 
-#include "esp_expander_utils.h"
+#include "../esp_expander_utils.h"
 
 #define VALID_IO_COUNT(handle)      ((handle)->config.io_count <= IO_COUNT_MAX ? (handle)->config.io_count : IO_COUNT_MAX)
 

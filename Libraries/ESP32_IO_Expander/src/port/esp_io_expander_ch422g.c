@@ -16,7 +16,7 @@
 #include "esp_io_expander.h"
 #include "esp_io_expander_ch422g.h"
 
-#include "esp_expander_utils.h"
+#include "../esp_expander_utils.h"
 
 /* Timeout of each I2C communication */
 #define I2C_TIMEOUT_MS          (10)

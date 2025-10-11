@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 #include "esp_err.h"
-#include "esp_utils_conf_internal.h"
-#include "log/esp_utils_log.h"
+#include "../esp_utils_conf_internal.h"
+#include "../log/esp_utils_log.h"
 
 #if ESP_UTILS_CONF_CHECK_HANDLE_METHOD == ESP_UTILS_CHECK_HANDLE_WITH_NONE
 

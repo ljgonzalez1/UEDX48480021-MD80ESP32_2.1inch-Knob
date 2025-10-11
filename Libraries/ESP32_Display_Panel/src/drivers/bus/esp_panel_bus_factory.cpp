@@ -5,8 +5,8 @@
  */
 
 #include "soc/soc_caps.h"
-#include "utils/esp_panel_utils_log.h"
-#include "esp_utils_helpers.h"
+#include "../../utils/esp_panel_utils_log.h"
+#include "../../../../esp-lib-utils/src/esp_utils_helpers.h"
 #include "esp_panel_bus_conf_internal.h"
 #include "esp_panel_bus_factory.hpp"
 

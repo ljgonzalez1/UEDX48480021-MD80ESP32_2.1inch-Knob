@@ -6,6 +6,6 @@
 
 #pragma once
 
-#include "board/esp_panel_board_config.hpp"
+#include "../board/esp_panel_board_config.hpp"
 
 extern const esp_panel::board::BoardConfig ESP_PANEL_BOARD_DEFAULT_CONFIG;

@@ -7,8 +7,8 @@
 
 #include <memory>
 #include <string>
-#include "esp_panel_types.h"
-#include "utils/esp_panel_utils_cxx.hpp"
+#include "../esp_panel_types.h"
+#include "../utils/esp_panel_utils_cxx.hpp"
 #include "esp_panel_board_conf_internal.h"
 #include "esp_panel_board_config.hpp"
 
